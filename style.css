@@ -1,0 +1,345 @@
+*, p, .navbar .container ,.Officers .container, h4 ,h1{
+  margin:0;
+  padding:0;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+
+body{
+  background-image: url(images/);
+  margin:0;
+  font-size:17px;
+  font-family: 'Roboto', sans-serif;
+  line-height:1.6;
+  background-color: #f2f4f6;
+}
+
+.STARTBUTTON:hover, a:hover, a i:hover
+  {
+    transform: scale(1.1);
+  }
+
+input, iframe, textarea
+  {
+    box-shadow: 9px 6px 22px -8px rgba(0,0,0,0.83);
+    -webkit-box-shadow: 9px 6px 22px -8px rgba(0,0,0,0.83);
+    -moz-box-shadow: 9px 6px 22px -8px rgba(0,0,0,0.83);
+  }
+.fab
+  {
+    font-size: 30px;
+  }
+
+.NAME
+  {
+    color: black;
+  }
+.jumbotron
+  {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f4f6;
+  }
+
+.SAGAHEADER
+  {
+    background-image: url("images/BODYBACKGROUND1.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-size: cover;
+  }
+.section
+  {
+    background-color: #f2f4f6;
+  }
+.BACKGROUND1
+  {
+    border-radius: 20px;
+    background-image: url("images/WHITEBACKGROUND.png");
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-size: cover;
+    color: white;
+    box-shadow: 9px 6px 22px -8px rgba(0,0,0,0.83);
+    -webkit-box-shadow: 9px 6px 22px -8px rgba(0,0,0,0.83);
+    -moz-box-shadow: 9px 6px 22px -8px rgba(0,0,0,0.83);
+  }
+
+.BACKGROUND2
+  {
+    border-radius: 20px;
+    background-image: url("images/BLACKBACKGROUND.jpeg");
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    color: white;
+    box-shadow: 9px 6px 22px -8px rgba(0,0,0,0.83);
+    -webkit-box-shadow: 9px 6px 22px -8px rgba(0,0,0,0.83);
+    -moz-box-shadow: 9px 6px 22px -8px rgba(0,0,0,0.83);
+
+  }
+
+.BACKGROUND3
+  {
+    background-image: url("images/BACKGROUND3.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+
+  }
+  .BACKGROUND4
+    {
+      background-image: url("images/BLACKBACKGROUND.jpeg");
+      background-repeat: no-repeat;
+      background-blend-mode: darken;
+      background-size: cover;
+      color: white;
+
+    }
+
+.navbar-toggler
+  {
+    border: 0px;
+  }
+
+img
+  {
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+.card
+  {
+    border-radius: 20px;
+    background-image: url("images/CARDS BACKGROUND.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.card-title
+  {
+    font-size: 20px;
+  }
+
+.FOOTER
+  {
+    background-image: url("images/BODYBACKGROUND2.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-size: cover;
+  }
+
+a
+  {
+    color: black;
+  }
+
+
+.centered{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  margin-left:
+}
+
+.WhiteFont
+  {
+    color: #FFF;
+  }
+
+
+
+
+
+.LOGO
+  {
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+a .LOGO
+  {
+    width: 70px;
+    padding-right:0px;
+    margin: 0px;
+  }
+
+
+.cotainer-fluid img, p
+  {
+    display: inline-block;
+    margin: 0;
+  }
+
+.SAGA
+  {
+    font-size: 200px;
+    line-height: 180px;
+  }
+
+.nav-link
+  {
+    border: 0;
+  }
+
+.btn
+  {
+    border: 0;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+  }
+
+.btn:hover
+  {
+    background-color: #798085;
+  }
+
+
+.EventHeader
+  {
+    background-image: url("images/VIDEOBACKGROUND.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.shadowTEXT
+  {
+    color: #FFFFFF;
+    text-shadow: 2px 3px 8px rgba(0,0,0,0.32);
+  }
+h1, h2, h3, h4, h5,h6
+  {
+    font-family: 'Oswald', sans-serif;
+  }
+
+.drk
+  {
+    border-radius: 20px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: #000000;
+    opacity: .5;
+  }
+  .drk1
+    {
+      position: absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      background-color: #000000;
+      opacity: .7;
+    }
+.myAnimation
+  {
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+  }
+  @keyframes example
+  {
+    0%   {top:0px;}
+    25%  {top:50px;}
+    50%  {top:75px;}
+    75%  {top:50px;}
+    100% {top:0px;}
+  }
+
+@media(max-width: 768px)
+  {
+    .LOGO
+      {
+        width: 150px;
+        padding: 0px;
+        margin: 0px;
+      }
+    .SAGA
+      {
+        font-size: 150px;
+        line-height: 120px;
+      }
+    .navbar-brand
+      {
+        margin-left: 0;
+      }
+    .nav-pills
+      {
+        font-size: 80%;
+        display: inline;
+      }
+    video
+      {
+        width: 480px;
+
+      }
+
+    .NAME
+      {
+        font-size: 75%;
+      }
+    .map-responsive iframe
+      {
+        width: 100%;
+      }
+  }
+
+
+@media(max-width: 560px)
+  {
+    .LOGO
+      {
+        width: 150px;
+        padding: 0px;
+        margin: 0px;
+      }
+    .SAGA
+      {
+        font-size: 80px;
+        line-height: 120px;
+      }
+
+      video
+        {
+          width: 340px;
+        }
+
+      .Event h1
+        {
+          font-size: 30px;
+        }
+      .FOOTER h4
+        {
+          font-size: 20px;
+        }
+      .FOOTER p
+        {
+          font-size: 15px;
+        }
+
+  }
+
+
+  @media(max-width: 321px)
+    {
+        .Event h1
+          {
+            font-size: 20px;
+          }
+        video
+          {
+            width: 240px;
+          }
+
+    }
